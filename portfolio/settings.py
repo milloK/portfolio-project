@@ -94,7 +94,7 @@ DATABASES = {
     }
 }
 
-DATABASES['default'] = dj_database_url.config(default='')
+DATABASES['default'] = dj_database_url.config(default='postgres://ckrmeaxdebcocw:65bf117785b6b9e4e0cdef9c96a5abe728a1cfd3553da464bc781ff93fb02b54@ec2-34-202-88-122.compute-1.amazonaws.com:5432/dc75pegp984ii5')
 
 
 db_from_env = dj_database_url.config(conn_max_age=600)
